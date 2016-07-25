@@ -1,7 +1,7 @@
 /**
  * Created by Leart Doko on 10/23/2015.
  */
-public class MoveZeroes {
+public class Problem283 {
     public void moveZeroes(int[] nums) {
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] != 0) {

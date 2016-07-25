@@ -1,7 +1,7 @@
 /**
  * Created by Leart Doko on 10/23/2015.
  */
-public class SameTree {
+public class Problem100 {
     public boolean isSameTree(TreeNode p, TreeNode q) {
 
         if (p == null && q != null || p != null && q == null) {

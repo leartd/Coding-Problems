@@ -1,7 +1,7 @@
 /**
  * Created by Leart Doko on 10/23/2015.
  */
-public class InvertBinaryTree {
+public class Problem226 {
     public TreeNode invertTree(TreeNode root) {
         if (root != null) {
 

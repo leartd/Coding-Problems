@@ -1,7 +1,7 @@
 /**
  * Created by Leart Doko on 10/23/2015.
  */
-public class CompareVersion {
+public class Problem165 {
     public static int compareVersion(String version1, String version2) {
         if (version1.equals(version2)) {
             return 0;

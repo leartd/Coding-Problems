@@ -3,7 +3,7 @@ import java.util.Arrays;
 /**
  * Created by Leart Doko on 11/9/2015.
  */
-public class RotateArray {
+public class Problem189 {
     public static void rotate(int[] nums, int k) {
         k = k % nums.length;
         reverseSection(nums, nums.length - k, nums.length);

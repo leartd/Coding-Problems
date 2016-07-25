@@ -3,7 +3,7 @@ import java.util.Arrays;
 /**
  * Created by Leart Doko on 10/23/2015.
  */
-public class ContainsDuplicate {
+public class Problem217 {
     public boolean containsDuplicate(int[] nums) {
         Arrays.sort(nums);
         for (int i = 0; i < nums.length - 1; i++) {

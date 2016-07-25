@@ -14,7 +14,7 @@ public class Problem260 {
             }
         }
 
-        int[] ret = new int[2];
+        int[] ret = new int[2]  ;
         int itr = 0;
         for(Integer val: set){
             if(itr < 2){

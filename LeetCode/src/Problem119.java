@@ -4,7 +4,7 @@ import java.util.List;
 /**
  * Created by Leart Doko on 11/9/2015.
  */
-public class PascalTriangleII {
+public class Problem119 {
     public static List<Integer> getRow(int rowIndex) {
         List<Integer> row = new ArrayList<Integer>();
         for (int i = 0; i < rowIndex + 1; i++) {

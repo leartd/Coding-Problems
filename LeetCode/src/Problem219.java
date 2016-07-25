@@ -3,7 +3,7 @@ import java.util.HashMap;
 /**
  * Created by Leart Doko on 10/23/2015.
  */
-public class ContainsNearbyDuplicate {
+public class Problem219 {
     public boolean containsNearbyDuplicate(int[] nums, int k) {
         HashMap<Integer, Integer> memo = new HashMap<Integer, Integer>();
         for (int i = 0; i < nums.length; i++) {

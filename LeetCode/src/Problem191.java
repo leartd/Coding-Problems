@@ -3,7 +3,7 @@ import java.util.*;
 /**
  * Created by Leart Doko on 10/23/2015.
  */
-public class NumberOf1Bits {
+public class Problem191 {
     // you need to treat n as an unsigned value
     public static int hammingWeight(long n) {
         List<List<Integer>> mainList = new ArrayList<List<Integer>>();

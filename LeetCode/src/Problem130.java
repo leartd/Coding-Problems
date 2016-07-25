@@ -3,7 +3,7 @@ import java.util.Stack;
 /**
  * Created by Leart Doko on 10/23/2015.
  */
-public class SurroundedRegions {
+public class Problem130 {
     public void solve(char[][] board) {
         for(int i = 0; i < board.length; i++){
             for(int j = 0; j < board[i].length; j++){

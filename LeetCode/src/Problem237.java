@@ -2,7 +2,7 @@
  * Created by Leart Doko on 10/23/2015.
  * Delete Node in a Linked List
  */
-public class DeleteNode {
+public class Problem237 {
     public void deleteNode(ListNode node) {
         node.val = node.next.val;
         node.next = node.next.next;

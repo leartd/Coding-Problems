@@ -1,7 +1,7 @@
 /**
  * Created by Leart Doko on 10/23/2015.
  */
-public class LCABinarySearchTree {
+public class Problem235 {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if (root != null && p != null && q != null) {
             if (root == p || root == q) {

@@ -4,7 +4,7 @@ import javax.swing.tree.TreeNode;
  * Created by Leart Doko on 10/23/2015.
  * Maximum Depth of a Binary Tree
  */
-public class MaxDepthBTree {
+public class Problem104 {
     public int maxDepth(TreeNode root) {
         if (root == null) return 0;
         if (root.left == null && root.right == null) return 1;

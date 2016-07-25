@@ -5,7 +5,7 @@ import java.util.Stack;
 /**
  * Created by Leart Doko on 10/23/2015.
  */
-public class BTreePreorderTraversal {
+public class Problem144 {
     public List<Integer> preorderTraversal(TreeNode root) {
         ArrayList<Integer> results = new ArrayList<Integer>();
 

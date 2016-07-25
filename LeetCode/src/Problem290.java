@@ -3,7 +3,7 @@ import java.util.HashMap;
 /**
  * Created by Leart Doko on 10/23/2015.
  */
-public class WordPattern {
+public class Problem290 {
     public boolean wordPattern(String pattern, String str) {
         pattern = pattern.trim();
         str = str.trim();
